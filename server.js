@@ -13,8 +13,8 @@ app.use(cors());
 app.use(express.json());
 
 // PayPal Sandbox konfiguracija
-const clientId = "Af6IBblLCyOierzsCuY4kCOlqwdh7tVFXCYiNfa9pWJ6X4O3Wx6g51ruM1XoJhk3qXguUhjkrAeGgkKT"; // Tvoj Sandbox Client ID
-const clientSecret = "EGpUvb-agkItBQVDMfdyc57MGH-dIN-R5R5f-la-xfGHFioDkYcrTHJUBFEqDjmgx-k3vCqyy56wu1-t"; // Tvoj Sandbox Secret
+const clientId = "ADD SANDBOX CLIENTID"; // Tvoj Sandbox Client ID
+const clientSecret = "ADD YOUR SENDOX SECRET"; // Tvoj Sandbox Secret
 const environment = new paypal.core.SandboxEnvironment(clientId, clientSecret);
 const client = new paypal.core.PayPalHttpClient(environment);
 
